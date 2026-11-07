@@ -1,5 +1,24 @@
 # TTSAI — audiobook studio
 
+## Repository guide and source setup
+
+TTSAI is a local audiobook-production studio that imports chapter text, lets the user review speaker/script decisions, keeps character voice assignments and produces/plays speech through configurable provider paths. It is distinct from the Folio Android PDF-listening application.
+
+On Windows, install Python 3.11 or a compatible runtime for the listed dependencies, then run the included setup/launchers:
+
+```powershell
+.\Setup-cloud.cmd
+.\Start.cmd
+```
+
+The setup script creates `.venv` and installs `requirements-cloud.txt`; `Start.cmd` launches `start.py`. Open the local interface at `http://127.0.0.1:8767`. This starts a local application, not a publicly hosted site.
+
+Cloud provider keys and usage are user-configured. The setup script's historical “free API keys” wording is not a guarantee of free generation, an available allowance or a current billing tier. Review provider availability/costs and the app's usage controls before production requests. Legacy local-model operation has separate dependencies and is documented below; models and personal books/audio are not bundled in this source snapshot.
+
+Application/backend code is under `app/`, the interface under `static/`, supporting scripts under `scripts/` and authored checks under `tests/`. Begin with a small chapter, review the preserved source and speaker mapping, then test a short audio segment before a long book. A passing interface or provider-authentication check does not prove successful full-book audio generation.
+
+See [the cloud prototype guide](docs/CLOUD_PROTOTYPE.md), [handoff](HANDOFF.md) and [transfer guide](TRANSFER_HANDOVER.md) for the current implementation and its historical evidence.
+
 Create a book, add numbered TXT/pasted chapters, map characters with Gemini, review the script, and produce audio with Gemini TTS, ElevenLabs or Hume. Character identities and provider-specific voices are saved across chapters. Playback follows the source passage, and every passage is editable for speaker/classification review.
 
 **Read [the complete cloud prototype guide](docs/CLOUD_PROTOTYPE.md)** for features, setup, API behavior, hosting, tests, limitations and the next assistant's handover.
@@ -37,3 +56,8 @@ Keep secrets, `data`, models and virtual environments out of source control. Bac
 ### Latest update: usage counters
 
 The API usage panel shows ElevenLabs' actual balance and percentage, per-provider app-tracked requests/speech characters, and the latest job's allowance percentages. Gemini/Hume account balances remain explicitly unavailable with dashboard links. Provider keys were accepted in read-only checks; ElevenLabs confirmed its Free plan. No real speech was generated. Keys are in server-session memory only. Current checks: 39 Python tests and a read-only browser usage-panel check passed. See the guide's follow-up section for permissions and quota details.
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.
