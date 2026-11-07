@@ -1,0 +1,177 @@
+{
+  "started": "2026-09-05 09:05:45",
+  "hardware": {
+    "speech_ready": true,
+    "models": [
+      "qwen3:4b"
+    ],
+    "analysis_error": null,
+    "memory_available_gb": 5.3,
+    "voices": [
+      "am_adam",
+      "am_echo",
+      "am_eric",
+      "am_fenrir",
+      "am_liam",
+      "am_michael",
+      "am_onyx",
+      "am_puck",
+      "am_santa",
+      "af_heart",
+      "af_bella",
+      "af_nicole",
+      "af_sarah",
+      "af_sky",
+      "af_nova",
+      "af_river",
+      "af_jessica"
+    ],
+    "root": "C:\\Users\\Arjun\\OneDrive\\Desktop\\TTSAIIdea"
+  },
+  "book_id": "f4810924eea64847b0f48f545252e464",
+  "mapping_seconds": 351.11628650000057,
+  "map_job": {
+    "id": "81007931ef8c419b95bfcb4159ae7ca0",
+    "book_id": "f4810924eea64847b0f48f545252e464",
+    "type": "map",
+    "options": "{\"type\":\"map\",\"mode\":\"full\",\"thoughts\":false,\"allow_unresolved\":false,\"chapter_id\":null,\"model\":\"qwen3:4b\"}",
+    "state": "complete",
+    "message": "Finished. Audio and progress are saved locally.",
+    "completed": 3,
+    "total": 3,
+    "pause": 0,
+    "created": "2026-09-05 03:35:45",
+    "updated": "2026-09-05 03:41:33"
+  },
+  "cast": [
+    {
+      "id": "6aa1fd0b17b04661b18171da0bbbec39",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Mira",
+      "aliases": [],
+      "description": "Engineer, speaks in bright and brisk tone",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "am_eric",
+        "b": "am_puck",
+        "mix": 0.7806,
+        "speed": 1.047,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    },
+    {
+      "id": "d3b66a1f78ca4e98bd3759ce30f09e11",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Narrator",
+      "aliases": [],
+      "description": "",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "af_heart",
+        "b": "af_bella",
+        "mix": 0.15,
+        "speed": 1.0,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    },
+    {
+      "id": "c780935884bf455ca002232cdf1da68c",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Sam",
+      "aliases": [],
+      "description": "Male, sword wielder, speaks in measured tone",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "af_jessica",
+        "b": "am_onyx",
+        "mix": 0.4628,
+        "speed": 0.948,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    }
+  ],
+  "labels": [
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"The bridge will hold,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"You said that about the last bridge,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"I was younger then,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"It was yesterday,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"Did you hear that?\"",
+      "speaker": null,
+      "review": 1,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 2 \u2014 The watch",
+      "text": "\"Hold this steady,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 2 \u2014 The watch",
+      "text": "\"I have it,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 2 \u2014 The watch",
+      "text": "\"This is going to work,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 72 \u2014 Home again",
+      "text": "\"I told you I would come back,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 72 \u2014 Home again",
+      "text": "\"And I told you to bring breakfast,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 72 \u2014 Home again",
+      "text": "\"Some things never change,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    }
+  ],
+  "sam_return_correct": false,
+  "ambiguity_flagged": true
+}

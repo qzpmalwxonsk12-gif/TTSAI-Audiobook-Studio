@@ -1,0 +1,399 @@
+{
+  "started": "2026-09-05 09:05:45",
+  "hardware": {
+    "speech_ready": true,
+    "models": [
+      "qwen3:4b"
+    ],
+    "analysis_error": null,
+    "memory_available_gb": 5.3,
+    "voices": [
+      "am_adam",
+      "am_echo",
+      "am_eric",
+      "am_fenrir",
+      "am_liam",
+      "am_michael",
+      "am_onyx",
+      "am_puck",
+      "am_santa",
+      "af_heart",
+      "af_bella",
+      "af_nicole",
+      "af_sarah",
+      "af_sky",
+      "af_nova",
+      "af_river",
+      "af_jessica"
+    ],
+    "root": "C:\\Users\\Arjun\\OneDrive\\Desktop\\TTSAIIdea"
+  },
+  "book_id": "f4810924eea64847b0f48f545252e464",
+  "mapping_seconds": 351.11628650000057,
+  "map_job": {
+    "id": "81007931ef8c419b95bfcb4159ae7ca0",
+    "book_id": "f4810924eea64847b0f48f545252e464",
+    "type": "map",
+    "options": "{\"type\":\"map\",\"mode\":\"full\",\"thoughts\":false,\"allow_unresolved\":false,\"chapter_id\":null,\"model\":\"qwen3:4b\"}",
+    "state": "complete",
+    "message": "Finished. Audio and progress are saved locally.",
+    "completed": 3,
+    "total": 3,
+    "pause": 0,
+    "created": "2026-09-05 03:35:45",
+    "updated": "2026-09-05 03:41:33"
+  },
+  "cast": [
+    {
+      "id": "6aa1fd0b17b04661b18171da0bbbec39",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Mira",
+      "aliases": [],
+      "description": "Engineer, speaks in bright and brisk tone",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "am_eric",
+        "b": "am_puck",
+        "mix": 0.7806,
+        "speed": 1.047,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    },
+    {
+      "id": "d3b66a1f78ca4e98bd3759ce30f09e11",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Narrator",
+      "aliases": [],
+      "description": "",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "af_heart",
+        "b": "af_bella",
+        "mix": 0.15,
+        "speed": 1.0,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    },
+    {
+      "id": "c780935884bf455ca002232cdf1da68c",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Sam",
+      "aliases": [],
+      "description": "Male, sword wielder, speaks in measured tone",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "af_jessica",
+        "b": "am_onyx",
+        "mix": 0.4628,
+        "speed": 0.948,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    }
+  ],
+  "labels": [
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"The bridge will hold,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"You said that about the last bridge,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"I was younger then,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"It was yesterday,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 1 \u2014 The crossing",
+      "text": "\"Did you hear that?\"",
+      "speaker": null,
+      "review": 1,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 2 \u2014 The watch",
+      "text": "\"Hold this steady,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 2 \u2014 The watch",
+      "text": "\"I have it,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 2 \u2014 The watch",
+      "text": "\"This is going to work,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 72 \u2014 Home again",
+      "text": "\"I told you I would come back,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 72 \u2014 Home again",
+      "text": "\"And I told you to bring breakfast,\"",
+      "speaker": "Mira",
+      "review": 0,
+      "kind": "dialogue"
+    },
+    {
+      "chapter": "Chapter 72 \u2014 Home again",
+      "text": "\"Some things never change,\"",
+      "speaker": "Sam",
+      "review": 0,
+      "kind": "dialogue"
+    }
+  ],
+  "sam_return_correct": false,
+  "ambiguity_flagged": true,
+  "source_evidence_replay": {
+    "sam_return_correct": true,
+    "explicit_thought_correct": true,
+    "ambiguous_line_flagged": true,
+    "saved_voices_unchanged": true,
+    "note": "Applied production source-evidence postprocessing to saved real model annotations. Original model-only errors are retained in runtime-initial.json."
+  },
+  "corrected_full_export": {
+    "job_id": "056c7bc95d6e425cbf91ed8b3ca8768a",
+    "wall_seconds": 12.353580399998464,
+    "artifacts": [
+      {
+        "id": "2b209a1d17af46dc9a492524c929b1cc",
+        "job_id": "056c7bc95d6e425cbf91ed8b3ca8768a",
+        "chapter_id": "c5b78c6c514143c0b3eeb42f01af89de",
+        "seconds": 17.77391666666667,
+        "revision": 7,
+        "created": "2026-09-05 03:52:25",
+        "chapter_title": "Chapter 72 \u2014 Home again",
+        "format": "WAV",
+        "stale": false,
+        "sha256": "4cd4efb6f7681efde2b9930068df5b86b4bd78fb615a225fed6821bae217da9d",
+        "bytes": 853192
+      },
+      {
+        "id": "0bb809f3029c42b793820b8da81dbecf",
+        "job_id": "056c7bc95d6e425cbf91ed8b3ca8768a",
+        "chapter_id": null,
+        "seconds": 61.97775,
+        "revision": 7,
+        "created": "2026-09-05 03:52:25",
+        "chapter_title": null,
+        "format": "FLAC",
+        "stale": false,
+        "sha256": "ff75efbd572a256d47079abbd8122d62ed7fbaf4610c53bdbd8607911a781983",
+        "bytes": 1343185
+      },
+      {
+        "id": "2ae15563dee6480eae9fcad589856a6f",
+        "job_id": "056c7bc95d6e425cbf91ed8b3ca8768a",
+        "chapter_id": "4ce564e6e4a1467fac46eedafdc48236",
+        "seconds": 14.418625,
+        "revision": 7,
+        "created": "2026-09-05 03:52:22",
+        "chapter_title": "Chapter 2 \u2014 The watch",
+        "format": "WAV",
+        "stale": false,
+        "sha256": "0346d4d32be141d96005712543df51d6ab316febbec65e382e3d542100f3c5c4",
+        "bytes": 692138
+      },
+      {
+        "id": "06d8c65c487e411da7933d72ade67c32",
+        "job_id": "056c7bc95d6e425cbf91ed8b3ca8768a",
+        "chapter_id": "c7cba7ba22fb43338af391e684479386",
+        "seconds": 28.385208333333335,
+        "revision": 7,
+        "created": "2026-09-05 03:52:19",
+        "chapter_title": "Chapter 1 \u2014 The crossing",
+        "format": "WAV",
+        "stale": false,
+        "sha256": "f337b89f365a5309e25d05e3b79679f954091aaeb4817cfa77b13d7eb2f0d610",
+        "bytes": 1362534
+      }
+    ]
+  },
+  "dialogue_only_export": {
+    "job_id": "f0f1d201127149ecb448a35dee640bec",
+    "wall_seconds": 2.13320609999937,
+    "artifacts": [
+      {
+        "id": "04fa6939eb1e425ab427e7cdcd8fa175",
+        "job_id": "f0f1d201127149ecb448a35dee640bec",
+        "chapter_id": "c7cba7ba22fb43338af391e684479386",
+        "seconds": 8.664666666666667,
+        "revision": 7,
+        "created": "2026-09-05 03:52:27",
+        "chapter_title": "Chapter 1 \u2014 The crossing",
+        "format": "WAV",
+        "stale": false,
+        "sha256": "157566149a3ad5ef54be921a344391d40352158721cd1825bc6d30e6d64966a1",
+        "bytes": 415948
+      },
+      {
+        "id": "0dabb7d1e61c47d6b025b466351ba7d6",
+        "job_id": "f0f1d201127149ecb448a35dee640bec",
+        "chapter_id": "4ce564e6e4a1467fac46eedafdc48236",
+        "seconds": 2.6346666666666665,
+        "revision": 7,
+        "created": "2026-09-05 03:52:27",
+        "chapter_title": "Chapter 2 \u2014 The watch",
+        "format": "WAV",
+        "stale": false,
+        "sha256": "025ce803359c1116c70daa37529fddf3b9a1dc8ddc737a1bc6a254e3bce0e001",
+        "bytes": 126508
+      },
+      {
+        "id": "275182d19d1248968e1152d04bc996fb",
+        "job_id": "f0f1d201127149ecb448a35dee640bec",
+        "chapter_id": "c5b78c6c514143c0b3eeb42f01af89de",
+        "seconds": 6.686,
+        "revision": 7,
+        "created": "2026-09-05 03:52:27",
+        "chapter_title": "Chapter 72 \u2014 Home again",
+        "format": "WAV",
+        "stale": false,
+        "sha256": "782b84d036662a191f8f89a02c4faaf2b63baf93954904439b9a55fb94afddcb",
+        "bytes": 320972
+      },
+      {
+        "id": "fe7e44af28304f41aa080c9697db9c3f",
+        "job_id": "f0f1d201127149ecb448a35dee640bec",
+        "chapter_id": null,
+        "seconds": 19.38533333333333,
+        "revision": 7,
+        "created": "2026-09-05 03:52:27",
+        "chapter_title": null,
+        "format": "FLAC",
+        "stale": false,
+        "sha256": "dcea109c8d437243686b9d21d36c4cdaf3fedb1fedd2624e9bf319514344c6fb",
+        "bytes": 398487
+      }
+    ]
+  },
+  "preview_benchmark": {
+    "url": "/api/audio/cache/7d2dd77048034a3e1f26a19e4149f614b155d455da02606c9c20f9aa406d8ecb.wav",
+    "seconds": 3.5673333333333335,
+    "generation_seconds": 1.5050055000028806
+  },
+  "cache_reuse_verified": true,
+  "distinct_voice_waveforms_verified": true,
+  "post_correction_cast": [
+    {
+      "id": "6aa1fd0b17b04661b18171da0bbbec39",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Mira",
+      "aliases": [],
+      "description": "Engineer, speaks in bright and brisk tone",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "af_sarah",
+        "b": "af_nicole",
+        "mix": 0.35,
+        "speed": 1.02,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    },
+    {
+      "id": "d3b66a1f78ca4e98bd3759ce30f09e11",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Narrator",
+      "aliases": [],
+      "description": "",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "af_heart",
+        "b": "af_bella",
+        "mix": 0.15,
+        "speed": 1.0,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    },
+    {
+      "id": "c780935884bf455ca002232cdf1da68c",
+      "book_id": "f4810924eea64847b0f48f545252e464",
+      "name": "Sam",
+      "aliases": [
+        "the swordsman"
+      ],
+      "description": "Male, sword wielder, speaks in measured tone",
+      "voice": {
+        "engine": "kokoro-v1.0",
+        "a": "am_michael",
+        "b": "am_onyx",
+        "mix": 0.3,
+        "speed": 0.98,
+        "lang": "en-us"
+      },
+      "merged_into": null
+    }
+  ],
+  "completed": "2026-09-05 09:22:32",
+  "real_restart_verified": true,
+  "failed_job_resume_verified": true,
+  "restart_cache_generation_seconds": 0.0,
+  "original_model_only_sam_return_correct": false,
+  "sam_return_correct_after_source_evidence": true,
+  "ui_voice_editing_verified": true,
+  "final_profile_probe": {
+    "named_speaker_correct": true,
+    "required_profile_present": true,
+    "profile": "neutral",
+    "explicit_male_profile_followed": false,
+    "result": {
+      "characters": [
+        {
+          "name": "Sam",
+          "aliases": [],
+          "description": "",
+          "profile": "neutral"
+        }
+      ],
+      "labels": [
+        {
+          "id": "quote",
+          "kind": "dialogue",
+          "speaker": "Sam",
+          "confidence": 0.95,
+          "reason": "Direct quote followed by speaker tag"
+        },
+        {
+          "id": "tag",
+          "kind": "narration",
+          "speaker": null,
+          "confidence": 0.95,
+          "reason": "Description of voice is narration"
+        }
+      ]
+    },
+    "note": "Final real-model probe correctly identified Sam, but chose neutral despite explicit male description. Automatic casting quality remains a limitation; voice review is supported."
+  }
+}

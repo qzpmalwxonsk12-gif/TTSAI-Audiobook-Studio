@@ -1,0 +1,20 @@
+# Deployment PREPARATION ONLY. This plan and its disk incur Render charges.
+# Nothing is provisioned by saving this file. Review current pricing before deploying.
+services:
+  - type: web
+    name: ttsai-studio
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    disk:
+      name: audiobook-data
+      mountPath: /var/data
+      sizeGB: 10
+    envVars:
+      - key: TTSAI_PASSWORD
+        generateValue: true
+      - key: TTSAI_DATA
+        value: /var/data
+# Provider keys are optional: enter them in the app after launch, or add
+# GEMINI_API_KEY, ELEVENLABS_API_KEY, HUME_API_KEY and DEEPGRAM_API_KEY as dashboard secrets.
+# Session-entered keys disappear after a server restart; saved books/audio do not.

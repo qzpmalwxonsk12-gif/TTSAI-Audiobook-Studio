@@ -1,0 +1,33 @@
+{
+  "named_speaker_correct": true,
+  "required_profile_present": true,
+  "profile": "neutral",
+  "explicit_male_profile_followed": false,
+  "result": {
+    "characters": [
+      {
+        "name": "Sam",
+        "aliases": [],
+        "description": "",
+        "profile": "neutral"
+      }
+    ],
+    "labels": [
+      {
+        "id": "quote",
+        "kind": "dialogue",
+        "speaker": "Sam",
+        "confidence": 0.95,
+        "reason": "Direct quote followed by speaker tag"
+      },
+      {
+        "id": "tag",
+        "kind": "narration",
+        "speaker": null,
+        "confidence": 0.95,
+        "reason": "Description of voice is narration"
+      }
+    ]
+  },
+  "note": "Final real-model probe correctly identified Sam, but chose neutral despite explicit male description. Automatic casting quality remains a limitation; voice review is supported."
+}
