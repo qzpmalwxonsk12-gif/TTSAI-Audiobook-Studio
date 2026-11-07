@@ -2,259 +2,266 @@
   "source_files": [
     {
       "path": ".dockerignore",
-      "sha256": "92392242fd0516a4eefb3d57bef58ccfdccca614d50ca20e0278f805f2801d0d",
-      "size": 73
+      "size": 73,
+      "sha256": "92392242fd0516a4eefb3d57bef58ccfdccca614d50ca20e0278f805f2801d0d"
     },
     {
       "path": ".gitignore",
-      "sha256": "09ef28a589f9c323b057be97fe1e85730a15c001a29076eff5229d59bb08071a",
-      "size": 81
+      "size": 598,
+      "sha256": "8b6057902e5a41e6db1ca3c504862b8433b4699b4058e00b544d16b35eff0b9c"
     },
     {
       "path": "AGENTS.md",
-      "sha256": "eb7e3e857d03a9c66dc6e4c8a43bf7d9f44b0dc519a8136ffb795831cecb985f",
-      "size": 1322
+      "size": 1322,
+      "sha256": "eb7e3e857d03a9c66dc6e4c8a43bf7d9f44b0dc519a8136ffb795831cecb985f"
+    },
+    {
+      "path": "BACKUP_NOTES.md",
+      "size": 1110,
+      "sha256": "19e0f5a0e5a296592067f46d48d330637203123a6b629e58eda7f1f28111741f"
     },
     {
       "path": "Dockerfile",
-      "sha256": "d049736265542deaaf07abd4b8fbf7e74445b3760698ca17e63702cbf1debe4e",
-      "size": 358
+      "size": 358,
+      "sha256": "d049736265542deaaf07abd4b8fbf7e74445b3760698ca17e63702cbf1debe4e"
     },
     {
       "path": "HANDOFF.md",
-      "sha256": "32e5eba1115c57d4571b3256648289cb0195acb3778adbf5d0b5218685fa8d0a",
-      "size": 13075
+      "size": 13075,
+      "sha256": "32e5eba1115c57d4571b3256648289cb0195acb3778adbf5d0b5218685fa8d0a"
     },
     {
       "path": "README.md",
-      "sha256": "805a9693f641f6aef8a363fffcb06aa8bcc0dd59714eca6e429fbb9bed488094",
-      "size": 3872
-    },
-    {
-      "path": "render.yaml",
-      "sha256": "8473886d99c042a8f5ece2609e6c4b7a62ccfa8a989fd7e902d7c2a4f68770dd",
-      "size": 746
-    },
-    {
-      "path": "requirements-cloud.txt",
-      "sha256": "61c0fdb5743ce2e84425edbbd71ca1dfbc1211f78a5b184822cf28f7cd22d1de",
-      "size": 150
-    },
-    {
-      "path": "requirements-lock.txt",
-      "sha256": "0888006038ab2c512e08c3f088e939dc11278d257c98a291da886f39c09829a3",
-      "size": 666
-    },
-    {
-      "path": "requirements.txt",
-      "sha256": "2eb83de023f8312c0bce09def309b58d6e6a0fe7151d09156694ebfc36528d37",
-      "size": 157
+      "size": 6079,
+      "sha256": "5b80cfa34c10ca4c16388eb344db227bb36dbe2625dbf0efa34fa34752c8eac2"
     },
     {
       "path": "Setup-cloud.cmd",
-      "sha256": "6d7cee3dc376a61842880d680d4a32c93489b70550fc661ca03c85d232431fe8",
-      "size": 298
+      "size": 298,
+      "sha256": "6d7cee3dc376a61842880d680d4a32c93489b70550fc661ca03c85d232431fe8"
     },
     {
       "path": "Setup.cmd",
-      "sha256": "a4caa9018f9008938766af174e714ca32a9013977180316dfbffb21ef7a2a3e4",
-      "size": 264
+      "size": 264,
+      "sha256": "a4caa9018f9008938766af174e714ca32a9013977180316dfbffb21ef7a2a3e4"
     },
     {
       "path": "Start-local.cmd",
-      "sha256": "8a12eb0dd646b48ce075d30dcf832b4b37d0d0b0a1d293036ad73eac639057b0",
-      "size": 65
+      "size": 65,
+      "sha256": "8a12eb0dd646b48ce075d30dcf832b4b37d0d0b0a1d293036ad73eac639057b0"
     },
     {
       "path": "Start.cmd",
-      "sha256": "416ddfa0ce75ab94e3dcb4fdcc1378478c4df3677246891fec7106f80adaacfc",
-      "size": 231
-    },
-    {
-      "path": "start.py",
-      "sha256": "7a67dbe763b21381c62780278bb6ebc9725ef98bf66e41b50447cb6ab28720b1",
-      "size": 1661
+      "size": 231,
+      "sha256": "416ddfa0ce75ab94e3dcb4fdcc1378478c4df3677246891fec7106f80adaacfc"
     },
     {
       "path": "TRANSFER_HANDOVER.md",
-      "sha256": "6067dd30cdc2e467088db5f98fb22896ebd2575e2d7d1c79c1811bdfbd5e5acc",
-      "size": 10827
-    },
-    {
-      "path": "app/analysis.py",
-      "sha256": "0f88d6c5b63661c1efdeed8ac38b5be06d30d8455d103215d24581d97be5dea0",
-      "size": 10809
-    },
-    {
-      "path": "app/cloud.py",
-      "sha256": "11f765b3bb2d62f8d61341b12600a4abd0546d9cb1cde112ec191aa68dbccfd3",
-      "size": 18941
-    },
-    {
-      "path": "app/jobs.py",
-      "sha256": "3df78879c108b977d80face57b7f294f443207ec70f4bad6fecdff156cd18767",
-      "size": 10946
-    },
-    {
-      "path": "app/main.py",
-      "sha256": "07f9590a678bf1dfba36f749cdef7291aaac1e365e3a18e4a557764c7aabfc03",
-      "size": 21788
-    },
-    {
-      "path": "app/store.py",
-      "sha256": "1dfbc12740cfc1210f5e12a1165d22dce98860a54aa0670e47dd365c201fff92",
-      "size": 4498
-    },
-    {
-      "path": "app/text.py",
-      "sha256": "7e11875ec8ae08475376ad8ebf5b109ab8fa9d8b776fb47ac726676f070938ba",
-      "size": 2393
-    },
-    {
-      "path": "app/usage.py",
-      "sha256": "aa7bc82c4faa0dec527e1b24be24b91f8694e9eb0677ec3801c7e403c1494aed",
-      "size": 4289
-    },
-    {
-      "path": "app/voices.py",
-      "sha256": "496dc2ffdc6d16adcb7ce1cd3828940e97aaaf560a7534dfd1feeeca38d5b254",
-      "size": 6513
+      "size": 10827,
+      "sha256": "6067dd30cdc2e467088db5f98fb22896ebd2575e2d7d1c79c1811bdfbd5e5acc"
     },
     {
       "path": "app/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size": 0
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/analysis.py",
+      "size": 10809,
+      "sha256": "0f88d6c5b63661c1efdeed8ac38b5be06d30d8455d103215d24581d97be5dea0"
+    },
+    {
+      "path": "app/cloud.py",
+      "size": 18941,
+      "sha256": "11f765b3bb2d62f8d61341b12600a4abd0546d9cb1cde112ec191aa68dbccfd3"
+    },
+    {
+      "path": "app/jobs.py",
+      "size": 10946,
+      "sha256": "3df78879c108b977d80face57b7f294f443207ec70f4bad6fecdff156cd18767"
+    },
+    {
+      "path": "app/main.py",
+      "size": 21788,
+      "sha256": "07f9590a678bf1dfba36f749cdef7291aaac1e365e3a18e4a557764c7aabfc03"
+    },
+    {
+      "path": "app/store.py",
+      "size": 4498,
+      "sha256": "1dfbc12740cfc1210f5e12a1165d22dce98860a54aa0670e47dd365c201fff92"
+    },
+    {
+      "path": "app/text.py",
+      "size": 2393,
+      "sha256": "7e11875ec8ae08475376ad8ebf5b109ab8fa9d8b776fb47ac726676f070938ba"
+    },
+    {
+      "path": "app/usage.py",
+      "size": 4289,
+      "sha256": "aa7bc82c4faa0dec527e1b24be24b91f8694e9eb0677ec3801c7e403c1494aed"
+    },
+    {
+      "path": "app/voices.py",
+      "size": 6513,
+      "sha256": "496dc2ffdc6d16adcb7ce1cd3828940e97aaaf560a7534dfd1feeeca38d5b254"
     },
     {
       "path": "docs/ARCHITECTURE.md",
-      "sha256": "35e3d92caf5dab1738f4bd1166368281af0914197fa428ba98e742e185203571",
-      "size": 2518
+      "size": 2518,
+      "sha256": "35e3d92caf5dab1738f4bd1166368281af0914197fa428ba98e742e185203571"
     },
     {
       "path": "docs/CLOUD_PROTOTYPE.md",
-      "sha256": "598aca404ae6f0b84eab1bb3b5310b4bfc2031f0d79276cfd67f696971d2ebbe",
-      "size": 39316
-    },
-    {
-      "path": "docs/final-profile-smoke.json",
-      "sha256": "c8b468ba489d8e68e02cc76144080a6b81773a33900bd02854a76a237561e89d",
-      "size": 898
+      "size": 39316,
+      "sha256": "598aca404ae6f0b84eab1bb3b5310b4bfc2031f0d79276cfd67f696971d2ebbe"
     },
     {
       "path": "docs/LOCAL_MILESTONE_README.md",
-      "sha256": "3682810fd5286ad343493ff95cac3630914e4e0b2930575447e2761bb9df9f39",
-      "size": 5089
+      "size": 5089,
+      "sha256": "3682810fd5286ad343493ff95cac3630914e4e0b2930575447e2761bb9df9f39"
     },
     {
       "path": "docs/PROJECT_BRIEF.md",
-      "sha256": "8e20209924629f858938d44a6bdca85fd3039a0439ad5c1bb9462a9db07d3fac",
-      "size": 1427
+      "size": 1427,
+      "sha256": "8e20209924629f858938d44a6bdca85fd3039a0439ad5c1bb9462a9db07d3fac"
+    },
+    {
+      "path": "docs/final-profile-smoke.json",
+      "size": 898,
+      "sha256": "c8b468ba489d8e68e02cc76144080a6b81773a33900bd02854a76a237561e89d"
     },
     {
       "path": "docs/restart-snapshot.json",
-      "sha256": "acf727b0baf2e76a5251cd01840b89c4aea596d614dceb0fb4c44ab3d8b43fcc",
-      "size": 1175
+      "size": 1175,
+      "sha256": "acf727b0baf2e76a5251cd01840b89c4aea596d614dceb0fb4c44ab3d8b43fcc"
     },
     {
       "path": "docs/runtime-initial.json",
-      "sha256": "8a7c02ec7db88558687b0d9847fe947f1cb22322c08aee82b975c7a357c3fd4c",
-      "size": 4599
+      "size": 4599,
+      "sha256": "8a7c02ec7db88558687b0d9847fe947f1cb22322c08aee82b975c7a357c3fd4c"
     },
     {
       "path": "docs/runtime-report.json",
-      "sha256": "ab0a2515569cace9a7cb1d7c63c7618f669cfa2d6facba3fc3d2b4e1cefffff7",
-      "size": 12142
+      "size": 12142,
+      "sha256": "ab0a2515569cace9a7cb1d7c63c7618f669cfa2d6facba3fc3d2b4e1cefffff7"
+    },
+    {
+      "path": "render.yaml",
+      "size": 746,
+      "sha256": "8473886d99c042a8f5ece2609e6c4b7a62ccfa8a989fd7e902d7c2a4f68770dd"
+    },
+    {
+      "path": "requirements-cloud.txt",
+      "size": 150,
+      "sha256": "61c0fdb5743ce2e84425edbbd71ca1dfbc1211f78a5b184822cf28f7cd22d1de"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "size": 667,
+      "sha256": "ae36ed2023f0f416d3feec4918e6f30da17f78d6c0d40df6f7edae736fa37593"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 157,
+      "sha256": "2eb83de023f8312c0bce09def309b58d6e6a0fe7151d09156694ebfc36528d37"
     },
     {
       "path": "samples/bridge.txt",
-      "sha256": "f545ee5ac7a3f81ff5d45dbd59ccfade2f36f80979de4393a748ac39e51ed5c5",
-      "size": 970
+      "size": 970,
+      "sha256": "f545ee5ac7a3f81ff5d45dbd59ccfade2f36f80979de4393a748ac39e51ed5c5"
     },
     {
       "path": "scripts/finalize_verification.py",
-      "sha256": "3f8b90d0c9c95b83e0a28c1814970899d7e0d3fb93a249ba3adaa0099ecc0170",
-      "size": 4805
+      "size": 4805,
+      "sha256": "3f8b90d0c9c95b83e0a28c1814970899d7e0d3fb93a249ba3adaa0099ecc0170"
     },
     {
       "path": "scripts/serve_cloud.py",
-      "sha256": "ff61c9e4efcca8690357a19bfeeafd46cfd6eeffdb62d37d6d22cf0dcc6715b0",
-      "size": 779
+      "size": 779,
+      "sha256": "ff61c9e4efcca8690357a19bfeeafd46cfd6eeffdb62d37d6d22cf0dcc6715b0"
     },
     {
       "path": "scripts/setup_models.py",
-      "sha256": "e4a1a065b356dfca714cdcbf8122a340f599eb93ae2e1ba89fd46588f58e8017",
-      "size": 2112
+      "size": 2112,
+      "sha256": "e4a1a065b356dfca714cdcbf8122a340f599eb93ae2e1ba89fd46588f58e8017"
     },
     {
       "path": "scripts/verify_runtime.py",
-      "sha256": "87acca9c161b536e207798da0790620b06c03af038e98c49f63d6e4a3dfdf933",
-      "size": 5038
+      "size": 5038,
+      "sha256": "87acca9c161b536e207798da0790620b06c03af038e98c49f63d6e4a3dfdf933"
+    },
+    {
+      "path": "start.py",
+      "size": 1661,
+      "sha256": "7a67dbe763b21381c62780278bb6ebc9725ef98bf66e41b50447cb6ab28720b1"
     },
     {
       "path": "static/app.js",
-      "sha256": "e39d7198cd86468110431a5dec761312bd9c070201f5be4836abf15cdf958501",
-      "size": 16487
+      "size": 16487,
+      "sha256": "e39d7198cd86468110431a5dec761312bd9c070201f5be4836abf15cdf958501"
     },
     {
       "path": "static/cloud-ui.js",
-      "sha256": "d02652b18696720a6fdafc13a972e3f72c69809e1ff5aab2d54ee6c171a17975",
-      "size": 8656
+      "size": 8656,
+      "sha256": "d02652b18696720a6fdafc13a972e3f72c69809e1ff5aab2d54ee6c171a17975"
     },
     {
       "path": "static/index.html",
-      "sha256": "8cf90d9bd6a8b2e6e0f5d854a0a18bd3546af350b685175c6270eb7f19a3d93f",
-      "size": 12218
+      "size": 12218,
+      "sha256": "8cf90d9bd6a8b2e6e0f5d854a0a18bd3546af350b685175c6270eb7f19a3d93f"
     },
     {
       "path": "static/review.js",
-      "sha256": "6f8b45655840312c8123f7efbeff290e1faf530dd900a240030a710fa4a03837",
-      "size": 1664
+      "size": 1664,
+      "sha256": "6f8b45655840312c8123f7efbeff290e1faf530dd900a240030a710fa4a03837"
     },
     {
       "path": "static/style.css",
-      "sha256": "e216eefe879ab3c19e17bfceed85ae4060efff087a8dd78271e05d325cc6c196",
-      "size": 10408
+      "size": 10408,
+      "sha256": "e216eefe879ab3c19e17bfceed85ae4060efff087a8dd78271e05d325cc6c196"
     },
     {
       "path": "static/usage-ui.js",
-      "sha256": "0000b40ef88ed15ed85e6d629677f697d3a83bcab00d245720b43fa564225d25",
-      "size": 3185
+      "size": 3185,
+      "sha256": "0000b40ef88ed15ed85e6d629677f697d3a83bcab00d245720b43fa564225d25"
     },
     {
       "path": "tests/browser_cloud.cjs",
-      "sha256": "76fa0967bf77f3a0a5b7103c738e7961110e86fb39f29a87802692f0519ebc71",
-      "size": 6031
+      "size": 6031,
+      "sha256": "76fa0967bf77f3a0a5b7103c738e7961110e86fb39f29a87802692f0519ebc71"
     },
     {
       "path": "tests/browser_usage.cjs",
-      "sha256": "047d208a9b0797d44283f054141c7f1b27c1a9ba8de02326a10c176743f6a42f",
-      "size": 1511
+      "size": 1511,
+      "sha256": "047d208a9b0797d44283f054141c7f1b27c1a9ba8de02326a10c176743f6a42f"
     },
     {
       "path": "tests/test_cloud.py",
-      "sha256": "79a4eb9472128f4a133a47dffb438f2a9c45f94e954cca2234f475f6fc3c8a87",
-      "size": 12170
+      "size": 12170,
+      "sha256": "79a4eb9472128f4a133a47dffb438f2a9c45f94e954cca2234f475f6fc3c8a87"
     },
     {
       "path": "tests/test_core.py",
-      "sha256": "44a8a2bef731643bd64bdc7b9d94c4e34ae9849470331b4512714db0a3183b72",
-      "size": 14632
+      "size": 14632,
+      "sha256": "44a8a2bef731643bd64bdc7b9d94c4e34ae9849470331b4512714db0a3183b72"
     },
     {
       "path": "tests/test_mapping_request.py",
-      "sha256": "d67c0127dc8f03ddb913379c9bb9dd49e034995891595eab66e64d38694eeeec",
-      "size": 1839
+      "size": 1839,
+      "sha256": "d67c0127dc8f03ddb913379c9bb9dd49e034995891595eab66e64d38694eeeec"
     },
     {
       "path": "tests/test_usage.py",
-      "sha256": "5d8ea5eb8d944a025e6730d09515fb045931773b86b4ba0907d98eed679b4e29",
-      "size": 2942
+      "size": 2942,
+      "sha256": "5d8ea5eb8d944a025e6730d09515fb045931773b86b4ba0907d98eed679b4e29"
     },
     {
       "path": "tests/ui_fixture_server.py",
-      "sha256": "8af8b558e41bd82320532b791c67e0d5ee448b8e356640e4dcd6afda2ed1495c",
-      "size": 1619
+      "size": 1619,
+      "sha256": "8af8b558e41bd82320532b791c67e0d5ee448b8e356640e4dcd6afda2ed1495c"
     }
   ],
-  "hash_basis": "Prepared source bytes before Git line-ending normalization and README notice prefixes."
+  "hash_basis": "Prepared source bytes before Git line-ending normalization and README notice prefixes.",
+  "last_reviewed": "2026-11-07",
+  "manifest_scope": "Current reviewed source snapshot, excluding this manifest itself and untracked generated outputs."
 }
